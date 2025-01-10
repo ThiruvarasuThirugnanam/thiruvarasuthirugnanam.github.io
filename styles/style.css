@@ -8,11 +8,14 @@ body {
     line-height: 1.6;
 }
 
+/* Ensure all h1 elements are white */
 h1 {
-    color: #fff;
+    color: #fff; /* White color for h1 */
     text-align: center;
+    margin: 0;
 }
 
+/* Other heading styles */
 h2, h3 {
     color: #333;
     text-align: center;
@@ -38,9 +41,10 @@ header {
     z-index: 1000;
 }
 
+/* Style for h1 within header */
 header h1 {
-    margin: 0;
     font-size: 2.5rem;
+    color: #fff; /* Ensure header h1 is also white */
 }
 
 nav ul {
