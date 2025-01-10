@@ -8,7 +8,6 @@ body {
     line-height: 1.6;
 }
 
-/* Ensure all h1 elements are white */
 h1 {
     color: #fff; /* White color for h1 */
     text-align: center;
