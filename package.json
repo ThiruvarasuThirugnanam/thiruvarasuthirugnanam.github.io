@@ -1,0 +1,23 @@
+{
+  "name": "thiruvarasu-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Cybersecurity portfolio — packet helix",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist -b gh-pages --dotfiles"
+  },
+  "dependencies": {
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10",
+    "gh-pages": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
